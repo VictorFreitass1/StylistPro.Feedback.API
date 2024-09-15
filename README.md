@@ -37,7 +37,7 @@ OpenAPI/Swagger: Configurado para gerar a documentação da API, facilitando o e
 ## Requisitos
 .NET SDK 6.0 ou superior
 Oracle Database (com conexão configurada)
-Ferramenta de gerenciamento de dependências (ex: NuGet)
+Ferramenta de gerenciamento de dependências ()
 
 ## Instruções para Executar a API
 
