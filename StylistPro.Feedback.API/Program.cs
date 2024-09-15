@@ -6,7 +6,6 @@ using StylistPro.Feedback.Domain.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 builder.Services.AddDbContext<ApplicationContext>(options => { 
     options.UseOracle(builder.Configuration["ConnectionStrings:Oracle"]);
 });
