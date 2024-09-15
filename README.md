@@ -67,8 +67,7 @@ A API foi desenvolvida seguindo a **arquitetura de microservices**, o que permit
 
 A arquitetura apresentada para o projeto **StylistPro** segue os princípios da **Onion Architecture**, utilizada para construir sistemas com alta desacoplagem entre camadas. Vamos detalhar os componentes da imagem:
 
-![Challenge](https://github.com/user-attachments/assets/45f43440-f88a-486e-b5e6-06880e347b5c)
-
+![Challenge](https://github.com/user-attachments/assets/6938d6f4-8fd5-4bab-b3a1-5357b5730980)
 
 ### 1. **Mobile Client:**
    - Este é o ponto de entrada do sistema, representando o cliente móvel que acessa o serviço **StylistPro**. Os pedidos realizados pelo cliente são direcionados ao **API Gateway**, que orquestra as chamadas de API para os microserviços.
