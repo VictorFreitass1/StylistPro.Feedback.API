@@ -3,7 +3,7 @@
 # Visão Geral
 Esta API foi desenvolvida utilizando uma arquitetura de microservices e segue os princípios de um sistema escalável e modular. As principais funcionalidades são a implementação de operações CRUD utilizando o banco de dados ORACLE e a documentação da API configurada com OpenAPI. O padrão de design Singleton também foi aplicado para controlar instâncias específicas durante a execução.
 
-# Funcionalidades
+## Funcionalidades
 • ObterTodos: Retorna todos os registros do banco de dados.
 • ObterPorId: Retorna um registro específico com base no ID fornecido.
 • SalvarDados: Insere um novo registro no banco de dados.
