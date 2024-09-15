@@ -38,7 +38,7 @@ namespace StylistPro.Feedback.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("tb_feedback");
+                    b.ToTable("TB_FEEDBACK");
                 });
 #pragma warning restore 612, 618
         }

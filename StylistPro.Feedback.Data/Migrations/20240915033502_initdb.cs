@@ -11,7 +11,7 @@ namespace StylistPro.Feedback.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "tb_feedback",
+                name: "TB_FEEDBACK",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "NUMBER(10)", nullable: false)
@@ -21,7 +21,7 @@ namespace StylistPro.Feedback.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_tb_feedback", x => x.Id);
+                    table.PrimaryKey("PK_TB_FEEDBACK", x => x.Id);
                 });
         }
 
@@ -29,7 +29,7 @@ namespace StylistPro.Feedback.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "tb_feedback");
+                name: "TB_FEEDBACK");
         }
     }
 }

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace StylistPro.Feedback.Domain.Entities
 {
-    [Table("tb_feedback")]
+    [Table("TB_FEEDBACK")]
     public class FeedbackEntity
     {
         [Key]

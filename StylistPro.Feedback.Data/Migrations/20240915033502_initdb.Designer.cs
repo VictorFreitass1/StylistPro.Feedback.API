@@ -11,7 +11,7 @@ using StylistPro.Feedback.Data.AppData;
 namespace StylistPro.Feedback.Data.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20240915031738_initdb")]
+    [Migration("20240915033502_initdb")]
     partial class initdb
     {
         /// <inheritdoc />
@@ -41,7 +41,7 @@ namespace StylistPro.Feedback.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("tb_feedback");
+                    b.ToTable("TB_FEEDBACK");
                 });
 #pragma warning restore 612, 618
         }
