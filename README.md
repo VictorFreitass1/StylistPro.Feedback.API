@@ -1,5 +1,12 @@
 # StylistPro.Feedback.API
 
+## Integrantes
+Breno Giacoppini Câmara 98695  
+Jaqueline Martins dos Santos 551744  
+Mariana Bastos Esteves 97510  
+Matheus Oliveira Macedo 551155  
+Victor Freitas Silva 99982  
+
 ## Visão Geral
 Esta API foi desenvolvida utilizando uma arquitetura de microservices e segue os princípios de um sistema escalável e modular. As principais funcionalidades são a implementação de operações CRUD utilizando o banco de dados ORACLE e a documentação da API configurada com OpenAPI. O padrão de design Singleton também foi aplicado para controlar instâncias específicas durante a execução.
 
