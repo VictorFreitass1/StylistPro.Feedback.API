@@ -38,22 +38,33 @@ Ferramenta de gerenciamento de dependências (ex: NuGet)
 ## Instruções para Executar a API
 
 ### 1. Clone o repositório:
+```
 git clone <link-do-repositorio>
+```
 
 ### 2. Navegue até a pasta do projeto:
+```
 cd StylistPro.Feedback.API
+```
 
 ### 3. Restaure os pacotes NuGet:
+```
 dotnet restore
+```
 
 ### 4. Configure a string de conexão com o banco de dados ORACLE no arquivo appsettings.json:
+```
 "ConnectionStrings": {
   "OracleDb": "Data Source=<oracle-db-url>;User Id=<username>;Password=<password>;"
 }
+```
 
 ### 5. Execute a aplicação:
+```
 dotnet run
+```
 
 ### 6. Acesse a documentação da API gerada pelo Swagger:
+```
 Após executar a API, navegue até http://localhost:<porta>/swagger para visualizar e interagir com a documentação.
-
+```
