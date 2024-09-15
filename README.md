@@ -12,9 +12,13 @@ Esta API foi desenvolvida utilizando uma arquitetura de microservices e segue os
 
 ## Funcionalidades
 • ObterTodos: Retorna todos os registros do banco de dados.
+
 • ObterPorId: Retorna um registro específico com base no ID fornecido.
+
 • SalvarDados: Insere um novo registro no banco de dados.
+
 • EditarDados: Atualiza um registro existente.
+
 • DeletarDados: Remove um registro com base no ID.
 
 ## Design Patterns Utilizados
